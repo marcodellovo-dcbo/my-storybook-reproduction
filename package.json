@@ -7,7 +7,8 @@
     "build": "ng build",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "yarn docs:json && start-storybook -p 6006",
-    "build-storybook": "yarn docs:json && build-storybook"
+    "build-storybook": "yarn docs:json && build-storybook",
+    "chromatic": "npx chromatic --project-token=133dc9f516ba"
   },
   "private": true,
   "dependencies": {
